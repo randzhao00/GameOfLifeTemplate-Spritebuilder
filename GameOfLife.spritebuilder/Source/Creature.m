@@ -12,7 +12,7 @@
 
 -(instancetype)initCreature{
     //super refers to CCSprite
-    self = [super initWithImageNamed:@"GameofLife/Assets/bubble.png"];
+    self = [super initWithImageNamed:@"GameofLife/Assets/resources-phone/bubble.png"];
     
     if(self){
         self.isAlive = NO;
